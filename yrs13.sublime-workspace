@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"func",
+				"function	jsProp"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mo",
+				"mobile-userlist"
+			],
+			[
+				"bor",
+				"border-bottom-style"
+			],
+			[
+				"border-b",
+				"border-bottom-width"
+			],
+			[
+				"mu",
+				"mu-title"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"tok",
+				"tokBvalid"
+			],
+			[
+				"l",
+				"lh	line-height"
+			],
+			[
+				"com",
+				"complaint-options"
+			],
+			[
+				"com-",
+				"complaint-ext-profile"
+			],
+			[
+				"to",
+				"tokBvalid"
+			],
+			[
+				"HTM",
+				"HTML	Laravel: HTML::script()"
+			],
+			[
+				"inde",
+				"indexOf	jsArray"
+			],
+			[
+				"cont",
+				"contains()	jQuery"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"Cr",
+				"Crypter	Laravel: Crypter::encrypt()"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"PUBLIc",
+				"public"
+			],
+			[
+				"PUBLIC",
+				"openssl_public_decrypt"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 92.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"mon",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"mo",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"php l",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"sftp",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"phpl",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"php la",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"MON",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"php laravel",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"mond",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lorem",
+				"LoremIpsum: (15) some"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"m",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"miror",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"blad",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"mons",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"file",
+				"Open File Navigator"
+			],
+			[
+				"lorm",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 818.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/martin/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/martin/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/martin/complain/includes/sftp-config.json",
+		"/home/martin/complain/htdocs/sftp-config.json",
+		"/home/martin/complain/application/sftp-config.json",
+		"/home/martin/complain/application/libraries/system.php",
+		"/home/martin/complain/application/ajax.routes.php",
+		"/home/martin/complain/application/views/complain/ajax/searchautocomplete.blade.php",
+		"/home/martin/.config/sublime-text-2/Packages/User/SFTP.errors.log",
+		"/home/martin/complain/application/filters.routes.php",
+		"/home/martin/complain/application/libraries/r.php",
+		"/home/martin/complain/includes/navbartop.panel",
+		"/home/martin/complain/application/auth.routes.php",
+		"/home/martin/complain/application/common.routes.php",
+		"/home/martin/complain/application/views/complain/auth/signin.blade.php",
+		"/home/martin/complain/htdocs/Stylesheets/intro.css",
+		"/home/martin/complain/application/views/complain/auth/signin2.blade.php",
+		"/home/martin/complain/application/admin.routes.php",
+		"/home/martin/complain/application/test.routes.php",
+		"/home/martin/complain/application/misc.routes.php",
+		"/home/martin/complain/application/routes.php~",
+		"/home/martin/complain/application/views/complain/ajax/getposts.blade.php",
+		"/home/martin/.config/sublime-text-2/Packages/User/SFTP.sublime-settings",
+		"/home/martin/.config/sublime-text-2/Packages/SFTP/SFTP.sublime-settings",
+		"/home/martin/complain/htdocs/Scripts/jquery.form.js",
+		"/home/martin/complain/application/views/complain/ajax/setprefs.blade.php",
+		"/home/martin/complain/application/config/error.php",
+		"/home/martin/complain/application/libraries/bordercontrol.php",
+		"/home/martin/complain/htdocs/Stylesheets/complain.global.css",
+		"/home/martin/complain/htdocs/Stylesheets/foundation.min.css",
+		"/home/martin/complain/htdocs/Scripts/intro.js",
+		"/home/martin/complain/application/views/complain/ajax/userquery.blade.php",
+		"/home/martin/complain/application/views/complain/ajax/statquery.blade.php",
+		"/home/martin/complain/application/views/complain/more/preferences.blade.php",
+		"/home/martin/complain/sftp-config.json",
+		"/tmp/sublime-sftp-browse-1373558443/ProductionServer/opt/lampp/htdocs/testui/index.php",
+		"/home/martin/.config/sublime-text-2/Packages/User/sftp_servers/ProductionServer"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theme",
+			"search",
+			"your",
+			"compl",
+			"opa",
+			"cre",
+			"input",
+			"intro",
+			"signin",
+			"pre",
+			"color: white;",
+			"print_r",
+			"form",
+			"				\"",
+			"$",
+			"dob",
+			"pre",
+			"pree",
+			"pre"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"me",
+			"color: <?php echo $fgcolor; ?>"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 275.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"s",
+				"application/libraries/system.php"
+			],
+			[
+				"sys",
+				"application/libraries/system.php"
+			],
+			[
+				"aja",
+				"application/ajax.routes.php"
+			],
+			[
+				"r",
+				"application/libraries/r.php"
+			],
+			[
+				"r.p",
+				"application/libraries/r.php"
+			],
+			[
+				"comm",
+				"application/common.routes.php"
+			],
+			[
+				"getp",
+				"application/views/complain/ajax/getposts.blade.php"
+			],
+			[
+				"get",
+				"application/views/complain/ajax/getposts.blade.php"
+			],
+			[
+				"sy",
+				"application/libraries/system.php"
+			],
+			[
+				"prof",
+				"application/views/complain/profile.blade.php"
+			],
+			[
+				"r.",
+				"application/libraries/r.php"
+			],
+			[
+				"compl",
+				"htdocs/Stylesheets/complain.global.css"
+			],
+			[
+				"errr",
+				"application/config/error.php"
+			],
+			[
+				"border",
+				"application/libraries/bordercontrol.php"
+			],
+			[
+				"n",
+				"includes/navbartop.panel"
+			],
+			[
+				"foundation",
+				"htdocs/Stylesheets/foundation.min.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true
+}

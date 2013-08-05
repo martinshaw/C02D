@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+	<script src='/vendors/jquery/jquery-2.0.3.min.js'></script>
+	<style>
+		body,html{
+			padding:0;
+			margin:0;
+		}
+		body{
+			// background: rgba(54, 181, 178, 1);
+		}
+		iframe{			
+			border-style:none;
+			border-width:0;
+			margin:0;
+			padding:0;
+		}
+	</style>
+	<script>
+		$(function(){
+			document.title= "Loading... - V8 Experimental";
+			tcf= function(){
+				document.title= "gopher://yrs13.local:8099/"+$('iframe')[0].contentWindow.location.href.replace("http://yrs13/","") + " - V8 Experimental";
+			};
+			titlechange= setInterval(tcf, 100);
+		});
+		
+		eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(2(){$("0").b(3.9);$("0").e(3.8);$("0").6("5",4.1.c.d("?",""));$("0 a").7(2(){4.1.f="g://h/i.j"+"?"+$(k).6("5")})});',21,21,'iframe|location|function|window|document|src|attr|click|innerHeight|innerWidth||width|search|replace|height|href|http|yrs13|presentationframe|php|this'.split('|'),0,{}))
+	</script>
+</head>
+<body>
+	<iframe></iframe>
+</body>
