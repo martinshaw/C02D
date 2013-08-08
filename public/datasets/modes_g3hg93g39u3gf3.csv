@@ -1,0 +1,24 @@
+Mode,SIZE,Fuel,co2 g/km
+CAR,Small,Petol,99
+CAR,Small,Diesel,87
+CAR,Small,Hybrid,44
+CAR,Small,Electric,0
+CAR,Small,Unknown,57.5
+CAR,Normal,Petol,133.1
+CAR,Normal,Diesel,120
+CAR,Normal,Hybrid,
+CAR,Normal,Electric,
+CAR,Normal,Unknown,
+CAR,Large,Petol,
+CAR,Large,Diesel,
+CAR,Large,Hybrid,
+CAR,Large,Electric,
+CAR,Large,Unknown,
+BUS,Normal,,892
+BUS,Caterpillar,,
+BUS,Double ,,
+TAXI,N/A,,177
+TAXI,Minibus,,
+TAXI,Unknown,,
+TRAIN,Electric,,
+TRAIN,,,

@@ -1,0 +1,28 @@
+#mapbox {
+	position: relative;
+	margin-top:20px;
+	width:100%;
+}
+.leaflet-control-zoom, .leaflet-bar, .leaflet-control{
+	top: 52px !important;
+}
+.ui-mobile .ui-header, .ui-mobile .ui-footer, .ui-footer, .ui-bar-a, .ui-footer-fixed, .slideup, .ui-navbar, .ui-mini{
+	z-index:1000;
+}
+.ui-header{
+	opacity: .9;
+}
+.ui-dialog.options-dialog .ui-dialog-contain {
+	margin-top: 0;
+	width:100%;
+}
+.nopadding{
+	padding:0 !important;
+}
+.leaflet-control-attribution, .leaflet-control{
+	visibility: hidden;
+	display: none;
+}
+body{
+	overflow: hidden !important;
+}

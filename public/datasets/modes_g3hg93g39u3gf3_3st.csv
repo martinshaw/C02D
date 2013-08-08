@@ -1,0 +1,25 @@
+Car,Small,Petrol,99
+Car,Small,Diesel,87
+Car,Small,Hybrid,44
+Car,Small,Electric,0
+Car,Small,Unknown,57.5
+Car,Normal,Petrol,133
+Car,Normal,Diesel,120
+Car,Normal,Hybrid,104
+Car,Normal,Electric,0
+Car,Normal,Unknown,89.25
+Car,Large,Petrol,138
+Car,Large,Diesel,119
+Car,Large,Hybrid,90
+Car,Large,Electric,0
+Car,Large,Unknown,86.75
+Bus,Normal,,105
+Bus,Caterpillar,,35
+Bus,Double ,,75
+Taxi,Black cab,,77
+Taxi,Minibus,,198
+Taxi,Unknown,,137.5
+Train,Electric,,50
+Train,Diesel,,95
+Train,Unknown,,72.5
+Tram,,,65

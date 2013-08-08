@@ -1,0 +1,44 @@
+{
+  "name": "transport",
+  "css_prefix_text": "icon-tr-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "glyphs": [
+    {
+      "uid": "f7440aaf96d590adceeff59b4dcb32d0",
+      "css": "airport",
+      "code": 59392,
+      "src": "maki"
+    },
+    {
+      "uid": "2b39f74a074e338a67270567e95142cb",
+      "css": "bus",
+      "code": 59397,
+      "src": "maki"
+    },
+    {
+      "uid": "6d3728ea0e5678ab9cf6840c4a040e34",
+      "css": "ferry",
+      "code": 59393,
+      "src": "maki"
+    },
+    {
+      "uid": "0b9e9d7b951b0acaac25b9d7ed258120",
+      "css": "london-underground",
+      "code": 59396,
+      "src": "maki"
+    },
+    {
+      "uid": "5040789d726273a910ac5b59e9d8227a",
+      "css": "pitch",
+      "code": 59394,
+      "src": "maki"
+    },
+    {
+      "uid": "70276caa975cb1354bc375ca334f6b4b",
+      "css": "rail",
+      "code": 59395,
+      "src": "maki"
+    }
+  ]
+}

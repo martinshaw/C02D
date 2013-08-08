@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -34,8 +35,129 @@
 
 Route::get('/', function()
 {
-	return View::make('home.index');
+
+	// debug
+	// return View::make("splashscreen");
+
+	if(Cookie::has("c_donesplash")){
+		return Redirect::to("/intro", 200);
+	}else{
+		Cookie::forever("c_donesplash", "true");
+		return View::make("splashscreen");
+	}
+
 });
+
+Route::get("/intro", function(){
+	return View::make('home.intro');
+});
+
+
+Route::get('/journal', function()
+{
+	return View::make('home.journal');
+});
+
+Route::get('/map', function()
+{
+	return View::make('home.map');
+});
+
+Route::get('/settings', function()
+{
+	return View::make('home.settings');
+});
+
+
+/////////////////////////////////////////////////////////
+
+Route::post("/ualm/authen", function(){
+	return Authen::signin($_POST["email"], $_POST["pass"]);
+});
+
+Route::get("/ualm/deauthen", function(){
+	Authen::signout();
+	return Redirect::to("/", 200);
+});
+
+
+/////////////////////////////////////////////////////////
+
+// EASTER EGGS
+
+
+Route::get("/jalapeno", function(){
+	return View::make('easteregg');
+});
+
+
+////////////////////////////////////////////////////////
+
+
+Route::get("/demo/iphone.vm", function(){
+	return View::make("demo.emulator");
+});
+
+
+
+//////////////////////////
+
+// Settings
+Route::post("/ualm/setSetting", function(){
+
+	$usr= Authen::user(); 
+
+		if(isset($_POST["first_name"])){
+			$usr->first_name= $_POST["first_name"];
+		}
+		if(isset($_POST["last_name"])){
+			$usr->last_name= $_POST["last_name"];
+		}
+		if(isset($_POST["password"])){
+			$usr->password= $_POST["password"];
+		}
+		if(isset($_POST["email"])){
+			$usr->email= $_POST["email"];
+		}
+		if(isset($_POST["marker_icon"])){
+			$usr->marker_icon= $_POST["marker_icon"];
+		}
+
+	$usr->save();
+
+	return ":)";
+
+});
+
+
+/////////////////////////////////////////////////////
+
+// AJAX
+
+// -- Calc
+
+Route::get("/ajax/calc/name=(:any)/size=(:any)/fuel=(:any)/km=(:num)", function($a, $b, $c, $d){
+	///ajax/calc/name=Car/size=Small/fuel=Petrol/km=300
+	$obj= Activitymethod::where("Name", "=", $a);
+	if($b!="na"){
+		$obj= $obj->where("Size", "=", $b);
+	}
+	if($c!="na"){
+		$obj= $obj->where("Fuel", "=", $c);
+	}
+	$obj= $obj->first();
+	$result= "<trash>";
+	$result.= $obj->cotg_perkg;
+	$result.= " CO2 grams per kilometre  x  ". $d ." kilometres  = ". ($obj->cotg_perkg*$d);
+	$result.= " CO2 grams";
+	$result.= "</trash>";
+	$result.= "\n<result>".($obj->cotg_perkg*$d)."</result>";
+	return $result;
+	
+});
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -90,11 +212,6 @@ Event::listen('500', function($exception)
 |		}));
 |
 */
-
-Route::filter('before', function()
-{
-	// Do stuff before every request to your application...
-});
 
 Route::filter('after', function($response)
 {
