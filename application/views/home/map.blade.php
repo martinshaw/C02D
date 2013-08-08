@@ -75,29 +75,23 @@
 
 
 
-					var markers = new L.MarkerClusterGroup();
+
 					var geocoder = L.mapbox.geocoder('c02d.map-flyqmsmf');
-
-
 					//var geocoder = L.mapbox.geocoder('c02d.map-flyqmsmf');
-					geocoder.query('Birmingham, West Midlands', function(err, data){
-								if(data){
-						        markers.addLayer(L.marker(data.latlng, {
-						            icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'})
-						        }))}});
+					geocoder.query('Birmingham, West Midlands', showMap);
 					<?php
-						$markers = Carbonmarker::all();
+						$markers = Carbonmarker::take(10)->get();
  
- 						$timerindex= 0;
 						foreach ($markers as $marker)
 						{
-							$timerindex= $timerindex+1000;
 							$function= "function(err, data){
-								if(data){
-						        markers.addLayer(L.marker(data.latlng, {
-						            icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'})
-						        }))}}";
-						     echo "a= setTimeout(function(){geocoder.query('". $marker->local_region_name .", United Kingdom', ".$function.")},".$timerindex.");\n";
+						if(err!=true){
+						 var d= L.marker(data.latlng).addTo(map);
+						}else{
+							console.log(err);
+						}
+					}";
+						     echo "geocoder.query('". $marker->local_region_name .", ". "United Kingdom" ."', ".$function.");\n";
 						}
 					?>
 
