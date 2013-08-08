@@ -16,6 +16,9 @@ class DepManagement{
 		echo HTML::style("/vendors/mapbox/mapbox.css");
 		echo HTML::script("/js/maps.js");
 		echo HTML::style("/css/maps.css");
+		echo HTML::style("/vendors/mapboxclusters/MarkerCluster.css");
+		echo HTML::style("/vendors/mapboxclusters/MarkerCluster.Default.css");
+		echo HTML::script("/vendors/mapboxclusters/leaflet.markercluster.js");
 	}
 	public static function getJS(){
 		echo HTML::script("/js/common.js");

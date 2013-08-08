@@ -1,0 +1,429 @@
+North East,Darlington,Darlington,198.7 
+North East,Durham,Durham,34.4 
+North East,Gateshead,Gateshead,417.4 
+North East,Hartlepool,Hartlepool,143.1 
+North East,Middlesbrough,Middlesbrough,272.1 
+North East,Newcastle upon Tyne,Newcastle upon Tyne,410.5 
+North East,North Tyneside,North Tyneside,287.3 
+North East,Northumberland,Northumberland,34.3 
+North East,Redcar and Cleveland,Redcar and Cleveland,3.2 
+North East,South Tyneside,South Tyneside,171.8 
+North East,Stockton-on-Tees,Stockton-on-Tees,7.5 
+North East,Sunderland,Sunderland,400.4 
+North West,Blackburn with Darwen,Blackburn with Darwen,158.8 
+North West,Blackpool,Blackpool,123.6 
+North West,Bolton,Bolton,466.7 
+North West,Bury,Bury,408.1 
+North West,Cheshire,Cheshire East,69.2 
+North West,Cheshire,Cheshire West and Chester,11.9 
+North West,Cheshire Total,Cheshire Total,875.3 
+North West,Cumbria,Allerdale,191.7 
+North West,Cumbria,Barrow-in-Furness,41.3 
+North West,Cumbria,Carlisle,277.5 
+North West,Cumbria,Copeland,78.0 
+North West,Cumbria,Eden,463.1 
+North West,Cumbria,South Lakeland,403.1 
+North West,Cumbria Total,Cumbria Total,32.4 
+North West,Halton,Halton,265.4 
+North West,Knowsley,Knowsley,329.0 
+North West,Lancashire,Burnley,133.2 
+North West,Lancashire,Chorley,376.9 
+North West,Lancashire,Fylde,183.7 
+North West,Lancashire,Hyndburn,162.4 
+North West,Lancashire,Lancaster,354.1 
+North West,Lancashire,Pendle,119.0 
+North West,Lancashire,Preston,322.6 
+North West,Lancashire,Ribble Valley,112.9 
+North West,Lancashire,Rossendale,120.5 
+North West,Lancashire,South Ribble,266.9 
+North West,Lancashire,West Lancashire,241.2 
+North West,Lancashire,Wyre,247.9 
+North West,Lancashire Total,Lancashire Total,756.1 
+North West,Liverpool,Liverpool,559.2 
+North West,Manchester,Manchester,29.8 
+North West,Oldham,Oldham,236.7 
+North West,Rochdale,Rochdale,448.1 
+North West,Salford,Salford,558.8 
+North West,Sefton,Sefton,284.5 
+North West,St. Helens,St. Helens,341.1 
+North West,Stockport,Stockport,421.1 
+North West,Tameside,Tameside,271.9 
+North West,Trafford,Trafford,344.8 
+North West,Warrington,Warrington,640.1 
+North West,Wigan,Wigan,473.0 
+North West,Wirral,Wirral,388.3 
+Yorkshire and the Humber,Barnsley,Barnsley,459.9 
+Yorkshire and the Humber,Bradford,Bradford,7.6 
+Yorkshire and the Humber,Calderdale,Calderdale,400.7 
+Yorkshire and the Humber,Doncaster,Doncaster,881.2 
+Yorkshire and the Humber,East Riding of Yorkshire,East Riding of Yorkshire,7.3 
+Yorkshire and the Humber,Kirklees,Kirklees,668.5 
+Yorkshire and the Humber,Leeds,Leeds,451.5 
+Yorkshire and the Humber,North East Lincolnshire,North East Lincolnshire,224.8 
+Yorkshire and the Humber,North Lincolnshire,North Lincolnshire,20.7 
+Yorkshire and the Humber,North Yorkshire,Craven,154.8 
+Yorkshire and the Humber,North Yorkshire,Hambleton,420.4 
+Yorkshire and the Humber,North Yorkshire,Harrogate,542.4 
+Yorkshire and the Humber,North Yorkshire,Richmondshire,243.0 
+Yorkshire and the Humber,North Yorkshire,Ryedale,168.9 
+Yorkshire and the Humber,North Yorkshire,Scarborough,169.6 
+Yorkshire and the Humber,North Yorkshire,Selby,320.4 
+Yorkshire and the Humber,North Yorkshire Total,North Yorkshire Total,467.8 
+Yorkshire and the Humber,Rotherham,Rotherham,555.5 
+Yorkshire and the Humber,Sheffield,Sheffield,9.7 
+Yorkshire and the Humber,Wakefield,Wakefield,745.4 
+Yorkshire and the Humber,York,York,284.2 
+East Midlands,Derby,Derby,384.8 
+East Midlands,Derbyshire,Amber Valley,222.9 
+East Midlands,Derbyshire,Bolsover,343.6 
+East Midlands,Derbyshire,Chesterfield,152.4 
+East Midlands,Derbyshire,Derbyshire Dales,238.1 
+East Midlands,Derbyshire,Erewash,244.5 
+East Midlands,Derbyshire,High Peak,6.8 
+East Midlands,Derbyshire,North East Derbyshire,244.2 
+East Midlands,Derbyshire,South Derbyshire,307.2 
+East Midlands,Derbyshire Total,Derbyshire Total,466.9 
+East Midlands,Leicester,Leicester,329.8 
+East Midlands,Leicestershire,Blaby,353.8 
+East Midlands,Leicestershire,Charnwood,308.4 
+East Midlands,Leicestershire,Harborough,329.2 
+East Midlands,Leicestershire,Hinckley and Bosworth,283.5 
+East Midlands,Leicestershire,Melton,118.0 
+East Midlands,Leicestershire,North West Leicestershire,474.5 
+East Midlands,Leicestershire,Oadby and Wigston,47.4 
+East Midlands,Leicestershire Total,Leicestershire Total,50.5 
+East Midlands,Lincolnshire,Boston,125.7 
+East Midlands,Lincolnshire,East Lindsey,296.0 
+East Midlands,Lincolnshire,Lincoln,62.0 
+East Midlands,Lincolnshire,North Kesteven,229.2 
+East Midlands,Lincolnshire,South Holland,204.1 
+East Midlands,Lincolnshire,South Kesteven,330.1 
+East Midlands,Lincolnshire,West Lindsey,230.3 
+East Midlands,Lincolnshire Total,Lincolnshire Total,33.7 
+East Midlands,Northamptonshire,Corby,85.8 
+East Midlands,Northamptonshire,Daventry,538.8 
+East Midlands,Northamptonshire,East Northamptonshire,247.5 
+East Midlands,Northamptonshire,Kettering,289.9 
+East Midlands,Northamptonshire,Northampton,278.2 
+East Midlands,Northamptonshire,South Northamptonshire,551.4 
+East Midlands,Northamptonshire,Wellingborough,171.1 
+East Midlands,Northamptonshire Total,Northamptonshire Total,462.2 
+East Midlands,Nottingham,Nottingham,363.1 
+East Midlands,Nottinghamshire,Ashfield,217.8 
+East Midlands,Nottinghamshire,Bassetlaw,370.7 
+East Midlands,Nottinghamshire,Broxtowe,288.3 
+East Midlands,Nottinghamshire,Gedling,106.5 
+East Midlands,Nottinghamshire,Mansfield,115.2 
+East Midlands,Nottinghamshire,Newark and Sherwood,397.9 
+East Midlands,Nottinghamshire,Rushcliffe,246.8 
+East Midlands,Nottinghamshire Total,Nottinghamshire Total,36.8 
+East Midlands,Rutland,Rutland,163.8 
+West Midlands,Birmingham,Birmingham,193.0 
+West Midlands,Coventry,Coventry,430.5 
+West Midlands,Dudley,Dudley,401.2 
+West Midlands,Sandwell,Sandwell,490.8 
+West Midlands,Shropshire,Shropshire,738.0 
+West Midlands,Solihull,Solihull,575.1 
+West Midlands,Staffordshire,Cannock Chase,114.1 
+West Midlands,Staffordshire,East Staffordshire,248.9 
+West Midlands,Staffordshire,Lichfield,320.6 
+West Midlands,Staffordshire,Newcastle-under-Lyme,397.7 
+West Midlands,Staffordshire,South Staffordshire,536.8 
+West Midlands,Staffordshire,Stafford,603.4 
+West Midlands,Staffordshire,Staffordshire Moorlands,172.9 
+West Midlands,Staffordshire,Tamworth,80.1 
+West Midlands,Staffordshire Total,Staffordshire Total,463.6 
+West Midlands,Stoke on Trent,Stoke-on-Trent,332.8 
+West Midlands,Telford and Wrekin,Telford and Wrekin,302.8 
+West Midlands,Walsall,Walsall,382.7 
+West Midlands,Warwickshire,North Warwickshire,650.1 
+West Midlands,Warwickshire,Nuneaton and Bedworth,219.4 
+West Midlands,Warwickshire,Rugby,1.9 
+West Midlands,Warwickshire,Stratford-on-Avon,537.3 
+West Midlands,Warwickshire,Warwick,472.8 
+West Midlands,Warwickshire Total,Warwickshire Total,132.9 "
+West Midlands,Wolverhampton,Wolverhampton,289.4 
+West Midlands,Worcestershire,Bromsgrove,450.3 
+West Midlands,Worcestershire,Malvern Hills,315.5 
+West Midlands,Worcestershire,Redditch,90.3 
+West Midlands,Worcestershire,Worcester,104.4 
+West Midlands,Worcestershire,Wychavon,539.7 
+West Midlands,Worcestershire,Wyre Forest,145.5 
+West Midlands,Worcestershire Total,Worcestershire Total,26.8 
+East of England,Bedfordshire,Bedford,297.2 
+East of England,Bedfordshire,Central Bedfordshire,703.8 
+East of England,Bedfordshire Total,Bedfordshire Total,"1
+East of England,Cambridgeshire,Cambridge,109.1 
+East of England,Cambridgeshire,East Cambridgeshire,261.9 
+East of England,Cambridgeshire,Fenland,191.9 
+East of England,Cambridgeshire,Huntingdonshire,718.2 
+East of England,Cambridgeshire,South Cambridgeshire,600.4 
+East of England,Cambridgeshire Total,Cambridgeshire Total,427.2 
+East of England,Essex,Basildon,280.8 
+East of England,Essex,Braintree,341.3 
+East of England,Essex,Brentwood,266.4 
+East of England,Essex,Castle Point,107.5 
+East of England,Essex,Chelmsford,372.1 
+East of England,Essex,Colchester,331.3 
+East of England,Essex,Epping Forest,591.7 
+East of England,Essex,Harlow,97.0 
+East of England,Essex,Maldon,79.8 
+East of England,Essex,Rochford,98.8 
+East of England,Essex,Tendring,241.1 
+East of England,Essex,Uttlesford,483.6 
+East of England,Essex Total,Essex Total,"1
+East of England,Hertfordshire,Broxbourne,121.4 
+East of England,Hertfordshire,Dacorum,266.0 
+East of England,Hertfordshire,East Hertfordshire,274.9 
+East of England,Hertfordshire,Hertsmere,365.6 
+East of England,Hertfordshire,North Hertfordshire,283.6 
+East of England,Hertfordshire,St. Albans,481.1 
+East of England,Hertfordshire,Stevenage,128.6 
+East of England,Hertfordshire,Three Rivers,306.9 
+East of England,Hertfordshire,Watford,96.9 
+East of England,Hertfordshire,Welwyn Hatfield,264.3 
+East of England,Hertfordshire Total,Hertfordshire Total,792.2 
+East of England,Luton,Luton,206.2 
+East of England,Norfolk,Breckland,379.7 
+East of England,Norfolk,Broadland,244.2 
+East of England,Norfolk,Great Yarmouth,140.7 
+East of England,Norfolk,King's Lynn and West Norfolk,397.0 
+East of England,Norfolk,North Norfolk,226.6 
+East of England,Norfolk,Norwich,140.1 
+East of England,Norfolk,South Norfolk,397.6 
+East of England,Norfolk Total,Norfolk Total, - 
+East of England,Peterborough,Peterborough,422.6 
+East of England,Southend-on-Sea,Southend-on-Sea,164.1 
+East of England,Suffolk,Babergh,230.3 
+East of England,Suffolk,Forest Heath,185.7 
+East of England,Suffolk,Ipswich,123.1 
+East of England,Suffolk,Mid Suffolk,275.1 
+East of England,Suffolk,St. Edmundsbury,254.9 
+East of England,Suffolk,Suffolk Coastal,263.9 
+East of England,Suffolk,Waveney,154.4 
+East of England,Suffolk Total,Suffolk Total,443.8 
+East of England,Thurrock,Thurrock,420.4 
+Greater London,Barking and Dagenham,Barking and Dagenham,166.3 
+Greater London,Barnet,Barnet,375.6 
+Greater London,Bexley,Bexley,212.2 
+Greater London,Brent,Brent,217.9 
+Greater London,Bromley,Bromley,304.4 
+Greater London,Camden,Camden,147.9 
+Greater London,City of London,City of London,0.0 
+Greater London,Croydon,Croydon,282.8 
+Greater London,Ealing,Ealing,310.9 
+Greater London,Enfield,Enfield,380.8 
+Greater London,Greenwich,Greenwich,271.0 
+Greater London,Hackney,Hackney,155.1 
+Greater London,Hammersmith and Fulham,Hammersmith and Fulham,160.6 
+Greater London,Haringey,Haringey,165.5 
+Greater London,Harrow,Harrow,141.0 
+Greater London,Havering,Havering,403.0 
+Greater London,Hillingdon,Hillingdon,561.2 
+Greater London,Hounslow,Hounslow,354.8 
+Greater London,Islington,Islington,125.7 
+Greater London,Kensington and Chelsea,Kensington and Chelsea,156.4 
+Greater London,Kingston upon Thames,Kingston upon Thames,209.5 
+Greater London,Lambeth,Lambeth,231.3 
+Greater London,Lewisham,Lewisham,230.3 
+Greater London,Merton,Merton,145.1 
+Greater London,Newham,Newham,275.8 
+Greater London,Redbridge,Redbridge,270.9 
+Greater London,Richmond upon Thames,Richmond upon Thames,191.3 
+Greater London,Southwark,Southwark,229.9 
+Greater London,Sutton,Sutton,146.4 
+Greater London,Tower Hamlets,Tower Hamlets,0.3 
+Greater London,Waltham Forest,Waltham Forest,166.1 
+Greater London,Wandsworth,Wandsworth,227.0 
+Greater London,Westminster,Westminster,2.1 
+South East,Bracknell Forest,Bracknell Forest,147.5 
+South East,Brighton and Hove,Brighton and Hove,300.6 
+South East,Buckinghamshire,Aylesbury Vale,360.7 
+South East,Buckinghamshire,Chiltern,146.6 
+South East,Buckinghamshire,South Bucks,475.1 
+South East,Buckinghamshire,Wycombe,401.9 
+South East,Buckinghamshire Total,Buckinghamshire Total,16.6 
+South East,East Sussex,Eastbourne,86.0 
+South East,East Sussex,Hastings,74.6 
+South East,East Sussex,Lewes,179.5 
+South East,East Sussex,Rother,175.9 
+South East,East Sussex,Wealden,355.1 
+South East,East Sussex Total,East Sussex Total,4.0 
+South East,Hampshire,Basingstoke and Deane,548.7 
+South East,Hampshire,East Hampshire,323.6 
+South East,Hampshire,Eastleigh,279.6 
+South East,Hampshire,Fareham,205.6 
+South East,Hampshire,Gosport,58.6 
+South East,Hampshire,Hart,254.1 
+South East,Hampshire,Havant,172.1 
+South East,Hampshire,New Forest,454.4 
+South East,Hampshire,Rushmoor,133.6 
+South East,Hampshire,Test Valley,410.0 
+South East,Hampshire,Winchester,498.5 
+South East,Hampshire Total,Hampshire Total,"1
+South East,Isle of Wight,Isle of Wight,125.5 
+South East,Kent,Ashford,294.8 
+South East,Kent,Canterbury,236.3 
+South East,Kent,Dartford,303.2 
+South East,Kent,Dover,168.9 
+South East,Kent,Gravesham,173.4 
+South East,Kent,Maidstone,411.7 
+South East,Kent,Sevenoaks,521.0 
+South East,Kent,Shepway,208.2 
+South East,Kent,Swale,1.1 
+South East,Kent,Thanet,135.9 
+South East,Kent,Tonbridge and Malling,431.2 
+South East,Kent,Tunbridge Wells,170.2 
+South East,Kent Total,Kent Total,"1
+South East,Medway,Medway,308.1 
+South East,Milton Keynes,Milton Keynes,550.4 
+South East,Oxfordshire,Cherwell,631.0 
+South East,Oxfordshire,Oxford,145.9 
+South East,Oxfordshire,South Oxfordshire,451.6 
+South East,Oxfordshire,Vale of White Horse,421.7 
+South East,Oxfordshire,West Oxfordshire,217.7 
+South East,Oxfordshire Total,Oxfordshire Total,399.4 
+South East,Portsmouth,Portsmouth,262.5 
+South East,Reading,Reading,136.2 
+South East,Slough,Slough,215.4 
+South East,Southampton,Southampton,247.0 
+South East,Surrey,Elmbridge,294.5 
+South East,Surrey,Epsom and Ewell,88.2 
+South East,Surrey,Guildford,420.5 
+South East,Surrey,Mole Valley,293.1 
+South East,Surrey,Reigate and Banstead,359.5 
+South East,Surrey,Runnymede,364.1 
+South East,Surrey,Spelthorne,199.4 
+South East,Surrey,Surrey Heath,272.1 
+South East,Surrey,Tandridge,408.8 
+South East,Surrey,Waverley,224.5 
+South East,Surrey,Woking,129.2 
+South East,Surrey Total,Surrey Total,"1
+South East,West Berkshire,West Berkshire,775.4 
+South East,West Sussex,Adur,99.4 
+South East,West Sussex,Arun,210.4 
+South East,West Sussex,Chichester,308.3 
+South East,West Sussex,Crawley,234.5 
+South East,West Sussex,Horsham,298.4 
+South East,West Sussex,Mid Sussex,310.4 
+South East,West Sussex,Worthing,109.5 
+South East,West Sussex Total,West Sussex Total,15.2 
+South East,Windsor and Maidenhead,Windsor and Maidenhead,425.0 
+South East,Wokingham,Wokingham,380.5 
+South West,Bath and North East Somerset,Bath and North East Somerset,246.6 
+South West,Bournemouth,Bournemouth,172.8 
+South West,Cornwall,Cornwall,37.1 
+South West,Devon,East Devon,325.4 
+South West,Devon,Exeter,107.3 
+South West,Devon,Mid Devon,267.0 
+South West,Devon,North Devon,181.2 
+South West,Devon,South Hams,223.5 
+South West,Devon,Teignbridge,381.4 
+South West,Devon,Torridge,117.5 
+South West,Devon,West Devon,186.6 
+South West,Devon Total,Devon Total,501.6 
+South West,Dorset,Christchurch,96.0 
+South West,Dorset,East Dorset,178.2 
+South West,Dorset,North Dorset,126.7 
+South West,Dorset,Purbeck,118.4 
+South West,Dorset,West Dorset,258.0 
+South West,Dorset,Weymouth and Portland,77.3 
+South West,Dorset Total,Dorset Total,854.6 
+South West,Gloucestershire,Cheltenham,99.2 
+South West,Gloucestershire,Cotswold,299.8 
+South West,Gloucestershire,Forest of Dean,185.3 
+South West,Gloucestershire,Gloucester,124.3 
+South West,Gloucestershire,Stroud,420.1 
+South West,Gloucestershire,Tewkesbury,404.5 
+South West,Gloucestershire Total,Gloucestershire Total,38.0 
+South West,Isles of Scilly,Isles of Scilly,3.1 
+South West,North Somerset,North Somerset,540.1 
+South West,Plymouth,Plymouth,327.6 
+South West,Poole,Poole,183.5 
+South West,Somerset,Mendip,264.0 
+South West,Somerset,Sedgemoor,389.3 
+South West,Somerset,South Somerset,367.9 
+South West,Somerset,Taunton Deane,326.5 
+South West,Somerset,West Somerset,95.6 
+South West,Somerset Total,Somerset Total,56.3 
+South West,South Gloucestershire,South Gloucestershire,931.1 
+South West,Swindon,Swindon,450.2 
+South West,Torbay,Torbay,149.2 
+South West,Wiltshire,Wiltshire,56.7 
+Wales,Wales,Blaenau Gwent,77.3 
+Wales,Wales,Bridgend,282.8 
+Wales,Wales,Caerphilly,240.3 
+Wales,Wales,Cardiff,621.7 
+Wales,Wales,Carmarthenshire,410.7 
+Wales,Wales,Ceredigion,153.6 
+Wales,Wales,Conwy,250.9 
+Wales,Wales,Denbighshire,189.9 
+Wales,Wales,Flintshire,364.2 
+Wales,Wales,Gwynedd,262.8 
+Wales,Wales,Isle of Anglesey,127.4 
+Wales,Wales,Merthyr Tydfil,89.5 
+Wales,Wales,Monmouthshire,345.3 
+Wales,Wales,Neath Port Talbot,8.3 
+Wales,Wales,Newport,436.4 
+Wales,Wales,Pembrokeshire,219.4 
+Wales,Wales,Powys,337.8 
+Wales,Wales,Swansea,360.8 
+Wales,Wales,Torfaen,134.9 
+Wales,Wales,Wrexham,218.0 
+Scotland,Scotland,Aberdeen City,309.3 
+Scotland,Scotland,Aberdeenshire,609.6 
+Scotland,Scotland,Angus,249.6 
+Scotland,Scotland,Argyll and Bute,195.7 
+Scotland,Scotland,Clackmannanshire,80.7 
+Scotland,Scotland,Dumfries and Galloway,581.4 
+Scotland,Scotland,Dundee City,207.6 
+Scotland,Scotland,East Ayrshire,251.3 
+Scotland,Scotland,East Dunbartonshire,139.6 
+Scotland,Scotland,East Lothian,196.4 
+Scotland,Scotland,East Renfrewshire,171.5 
+Scotland,Scotland,Eilean Siar,49.9 
+Scotland,Scotland,Falkirk,13.2 
+Scotland,Scotland,Fife,2.4 
+Scotland,Scotland,Glasgow City,6.1 
+Scotland,Scotland,Highland,603.0 
+Scotland,Scotland,Inverclyde,111.5 
+Scotland,Scotland,Midlothian,147.4 
+Scotland,Scotland,Moray,163.2 
+Scotland,Scotland,North Ayrshire,170.7 
+Scotland,Scotland,North Lanarkshire,732.3 
+Scotland,Scotland,Orkney Islands,33.0 
+Scotland,Scotland,Perth and Kinross,586.5 
+Scotland,Scotland,Renfrewshire,335.7 
+Scotland,Scotland,Scottish Borders,263.9 
+Scotland,Scotland,Shetland Islands,45.3 
+Scotland,Scotland,South Ayrshire,245.1 
+Scotland,Scotland,South Lanarkshire,661.0 
+Scotland,Scotland,Stirling,273.2 
+Scotland,Scotland,West Dunbartonshire,136.0 
+Scotland,Scotland,West Lothian,390.0 
+Northern Ireland,Northern Ireland,Antrim,240.5 
+Northern Ireland,Northern Ireland,Ards,133.0 
+Northern Ireland,Northern Ireland,Armagh,223.6 
+Northern Ireland,Northern Ireland,Ballymena,198.8 
+Northern Ireland,Northern Ireland,Ballymoney,89.1 
+Northern Ireland,Northern Ireland,Banbridge,144.4 
+Northern Ireland,Northern Ireland,Belfast,344.0 
+Northern Ireland,Northern Ireland,Carrickfergus,43.9 
+Northern Ireland,Northern Ireland,Castlereagh,75.5 
+Northern Ireland,Northern Ireland,Coleraine,138.6 
+Northern Ireland,Northern Ireland,Cookstown,100.5 
+Northern Ireland,Northern Ireland,Craigavon,173.6 
+Northern Ireland,Northern Ireland,Derry,161.6 
+Northern Ireland,Northern Ireland,Down,191.8 
+Northern Ireland,Northern Ireland,Dungannon and South Tyrone,214.9 
+Northern Ireland,Northern Ireland,Fermanagh,237.8 
+Northern Ireland,Northern Ireland,Larne,93.8 
+Northern Ireland,Northern Ireland,Limavady,119.6 
+Northern Ireland,Northern Ireland,Lisburn,287.5 
+Northern Ireland,Northern Ireland,Magherafelt,132.3 
+Northern Ireland,Northern Ireland,Moyle,65.9 
+Northern Ireland,Northern Ireland,Newry and Mourne,269.6 
+Northern Ireland,Northern Ireland,Newtownabbey,135.6 
+Northern Ireland,Northern Ireland,North Down,87.1 
+Northern Ireland,Northern Ireland,Omagh,189.9 
+Northern Ireland,Northern Ireland,Strabane,131.0

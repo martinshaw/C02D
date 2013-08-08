@@ -189,7 +189,7 @@
 				texture.magFilter = THREE.LinearMipMapLinearFilter;
 				texture.minFilter = THREE.LinearMipMapLinearFilter;
 
-				// var fog = new THREE.Fog( 0x000000, - 10000, 13000 ); ////////// pollution (lots)
+				//var fog = new THREE.Fog( 0x000000, - 10000, 13000 ); ////////// pollution (lots)
 				var fog = new THREE.Fog( 0x4584b4, - 100, 3000 ); // normal
 				
 

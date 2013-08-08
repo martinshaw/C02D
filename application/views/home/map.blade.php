@@ -55,6 +55,7 @@
 			  		$("#loading").fadeOut("fast");
 			  		$('div[data-role="header"] a').fadeIn("fast");
 
+
 					var map = L.mapbox.map('map', 'c02d.map-flyqmsmf')
 						.setView([<?php
 							if(isset($_GET["lat"])){
@@ -70,6 +71,42 @@
 							}
 						?>], 4);
 
+					document.map= map;
+
+
+
+					var markers = new L.MarkerClusterGroup();
+					var geocoder = L.mapbox.geocoder('c02d.map-flyqmsmf');
+
+
+					//var geocoder = L.mapbox.geocoder('c02d.map-flyqmsmf');
+					geocoder.query('Birmingham, West Midlands', function(err, data){
+								if(data){
+						        markers.addLayer(L.marker(data.latlng, {
+						            icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'})
+						        }))}});
+					<?php
+						$markers = Carbonmarker::all();
+ 
+ 						$timerindex= 0;
+						foreach ($markers as $marker)
+						{
+							$timerindex= $timerindex+1000;
+							$function= "function(err, data){
+								if(data){
+						        markers.addLayer(L.marker(data.latlng, {
+						            icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'})
+						        }))}}";
+						     echo "a= setTimeout(function(){geocoder.query('". $marker->local_region_name .", United Kingdom', ".$function.")},".$timerindex.");\n";
+						}
+					?>
+
+					function showMap(err, data) {
+						if(err!=true){
+						 var d= L.marker(data.latlng).addTo(map);
+						}
+					}
+
 			     	$(".getGeoLoc").click(function(e){
 
 			     		if (!navigator.geolocation) {
@@ -83,8 +120,6 @@
 
 					map.on('locationfound', function(e) {
 					    map.fitBounds(e.bounds);
-
-					    L.mapbox.circle([50.5, 30.5], 200).addTo(map);
 
 					    map.markerLayer.setGeoJSON({
 					        type: "Feature",
