@@ -57,8 +57,8 @@
 		<div class="iframeborder" align="center">
 			<iframe src="<?php
 
-				if(isset($_POST['url'])){
-					echo $_POST["url"];
+				if(isset($_GET['url'])){
+					echo $_GET["url"];
 				}else{
 					echo "/";
 				}
