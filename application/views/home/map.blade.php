@@ -83,7 +83,7 @@
 					geocoder.query('Birmingham, West Midlands', function(err, data){
 								if(data){
 						        markers.addLayer(L.marker(data.latlng, {
-						            icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'})
+						            icon: L.mapbox.marker.icon({'marker-symbol': 'circle-stroked', 'marker-color': '0044FF'}), 'title': 'Birmingham'
 						        }))}});
 					<?php
 						$markers = Carbonmarker::all();
@@ -95,15 +95,13 @@
 							$function= "function(err, data){
 								if(data){
 						        markers.addLayer(L.marker(data.latlng, {
-						            icon: L.mapbox.marker.icon({'marker-symbol': 'post', 'marker-color': '0044FF'})
+						            icon: L.mapbox.marker.icon({'marker-symbol': 'circle-stroked', 'marker-color': '0044FF'}), 'title': '".$marker->local_region_name."'
 						        }))}}";
 						     echo "a= setTimeout(function(){geocoder.query('". $marker->local_region_name .", United Kingdom', ".$function.")},".$timerindex.");\n";
 						}
 					?>
 
-					mapmarkerpush= setTimeout(function(){
-						map.addLayer(markers);
-					}, 20000);
+					map.addLayer(markers);
 
 
 			     	$(".getGeoLoc").click(function(e){

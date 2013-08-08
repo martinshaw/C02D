@@ -29,12 +29,12 @@
 
 		/* OPERA */
 		iframe{
-			height: 480px;
+			/*height: 480px;
 			left: 3px;
 			position: relative;
 			top: 126px;
 			width: 280px;
-			overflow: hidden;
+			overflow: hidden;*/
 		}
 
 		/* CHROME */

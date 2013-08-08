@@ -1,3 +1,3 @@
 $(function(){
-	$("#mapbox").height(window.innerHeight);
+	$("#mapbox").height(window.innerHeight-400);
 });

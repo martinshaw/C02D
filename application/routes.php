@@ -94,7 +94,7 @@ Route::get("/jalapeno", function(){
 ////////////////////////////////////////////////////////
 
 
-Route::get("/demo/iphone.vm", function(){
+Route::get("/demo/iphone.php", function(){
 	return View::make("demo.emulator");
 });
 

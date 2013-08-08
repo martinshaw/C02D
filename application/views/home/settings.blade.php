@@ -31,9 +31,13 @@
 			<p>
 
 
-				<input class="autosave" type="text" name="first_name" placeholder="First Name" id="text-basic" data-theme="b" style="text-align:center;" value="{{Authen::user()->first_name}}"/>
+				<input class="autosave" type="text" name="first_name" placeholder="First Name" data-theme="b" style="text-align:center;" value="{{Authen::user()->first_name}}"/>
 
-				<input class="autosave" type="text" name="last_name" placeholder="Last Name" id="text-basic" data-theme="b" style="text-align:center;" value="{{Authen::user()->last_name}}"/>
+				<input class="autosave" type="text" name="last_name" placeholder="Last Name" data-theme="b" style="text-align:center;" value="{{Authen::user()->last_name}}"/>
+
+				<input class="autosave" type="text" name="email" placeholder="email" data-theme="b" style="text-align:center;" value="{{Authen::user()->email}}"/>
+
+				<input class="autosave" type="password" name="password" placeholder="Password" data-theme="b" style="text-align:center;" value="{{Authen::user()->password}}"/>
 
 				<select class="autosave" name="marker_icon" id="select-choice-a" data-native-menu="false" data-theme="c" value="{{Authen::user()->marker_icon}}">
 				    <option>Location Marker</option>
@@ -56,20 +60,20 @@
 				<a href="/ualm/deauthen" data-role="button">Sign Out</a>
 
 				<br/><br/>
-
+<!-- 
 				<select class="autosave" name="veh" id="select-choice-a" data-native-menu="false" data-theme="c">
 				    <option>Type of Vehicle</option>
 
 				    <?php
 
-				    	foreach (Activitymethod::all() as $var) {
-				    		echo '<option value="'. strtolower($var->Name) .'" data-theme="c">'. $var->Name .'</option>';
-				    	}
+				    	// foreach (Activitymethod::all() as $var) {
+				    	// 	echo '<option value="'. strtolower($var->Name) .'" data-theme="c">'. $var->Name .'</option>';
+				    	// }
 				    ?>
 
 				</select>
 
-
+ -->
 				<script>
 
 					$(function(){
