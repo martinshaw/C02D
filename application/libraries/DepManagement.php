@@ -27,7 +27,7 @@ class DepManagement{
 
 	}
 	public static function getCSS(){
-		echo HTML::style("/vendor/transport/css/transport.css");
-		echo HTML::style("/vendor/transport/css/animation.css");
+		echo HTML::style("/vendors/transport/css/transport.css");
+		echo HTML::style("/vendors/transport/css/animation.css");
 	}
 }

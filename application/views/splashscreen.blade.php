@@ -94,7 +94,7 @@
 					width: "100%"
 				}, 3000, function(){
 					$(".loadbar").remove();
-					$(".loadobj").html($("<a></a>").text("Finished playing with clouds?").attr("href","/intro"));
+					$(".loadobj").html($("<a></a>").text("Finished playing with clouds?").attr("data-prefetch","true").attr("href","/intro"));
 				});
 			});
 

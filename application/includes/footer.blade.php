@@ -5,11 +5,11 @@
 					<?php
 						
 						if($_SERVER['REQUEST_URI']!= "/intro"){
-							echo '<li><a href="/intro" class="ui-state-persist">Intro</a></li>';
+							echo '<li><a href="/intro" data-prefetch="true" class="ui-state-persist">Intro</a></li>';
 						}
 
 						if($_SERVER['REQUEST_URI']!= "/map"){
-							echo '<li><a href="/map" class="ui-state-persist">Map</a></li>';
+							echo '<li><a href="/map" data-prefetch="true" class="ui-state-persist">Map</a></li>';
 						}
 
 					?>
@@ -18,11 +18,11 @@
 						if(Authen::signedin()== "true"){
 
 							if($_SERVER['REQUEST_URI']!= "/journal"){
-								echo '<li><a href="/journal" class="ui-state-persist">Journal</a></li>';
+								echo '<li><a href="/journal" data-prefetch="true" class="ui-state-persist">Journal</a></li>';
 							}
 
 							if($_SERVER['REQUEST_URI']!= "/settings"){
-								echo '<li><a href="/settings" class="ui-state-persist">Settings</a></li>';
+								echo '<li><a href="/settings" data-prefetch="true" class="ui-state-persist">Settings</a></li>';
 							}
 							// echo '<li><a href="/ualm/deauthen" class="ui-state-persist">Sign Out</a></li>';
 						}else{

@@ -1,0 +1,53 @@
+.view {
+	-webkit-perspective: 800px;
+	perspective: 800px;
+}
+.touched .s1{
+	-webkit-transition-delay: 200ms;
+	transition-delay: 200ms;
+	
+	-webkit-transform: rotate3d(0,1,0,-3deg);
+	transform: rotate3d(0,1,0,-3deg);
+}
+.touched .s2{
+	-webkit-transition-delay: 150ms;
+	transition-delay: 150ms;
+	
+	-webkit-transform: translate3d(59px,0,0) rotate3d(0,1,0,-10deg);
+	transform: translate3d(59px,0,0) rotate3d(0,1,0,-10deg);
+}
+.touched .s3{
+	-webkit-transition-delay: 100ms;
+	transition-delay: 100ms;
+	
+	-webkit-transform: translate3d(59px,0,0) rotate3d(0,1,0,-16deg);
+	transform: translate3d(59px,0,0) rotate3d(0,1,0,-16deg);
+}
+.touched .s4{
+	-webkit-transition-delay: 50ms;
+	transition-delay: 50ms;
+	
+	-webkit-transform: translate3d(59px,0,0) rotate3d(0,1,0,-30deg);
+	transform: translate3d(59px,0,0) rotate3d(0,1,0,-30deg);
+}
+.touched .s5{
+	-webkit-transform: translate3d(60px,0,0) rotate3d(0,1,0,-42deg);
+	transform: translate3d(60px,0,0) rotate3d(0,1,0,-42deg);
+}
+
+.view .s4 > .overlay {
+	background: -webkit-linear-gradient(right, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(right, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+}
+
+.view .s5 > .overlay {
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(left, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+}
+
+.view div.view-back{
+	background: #0a0a0a;
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#a3a3a3), color-stop(50%,#666666));
+	background: -webkit-linear-gradient(left, #a3a3a3 0%,#fff 50%);
+	background: linear-gradient(left, #a3a3a3 0%,#fff 50%);
+}

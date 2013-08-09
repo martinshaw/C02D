@@ -94,7 +94,7 @@ Route::get("/jalapeno", function(){
 ////////////////////////////////////////////////////////
 
 
-Route::get("/demo/iphone.php", function(){
+Route::get("/demo/style=iphone", function(){
 	return View::make("demo.emulator");
 });
 
@@ -152,6 +152,58 @@ Route::get("/ajax/calc/name=(:any)/size=(:any)/fuel=(:any)/km=(:num)", function(
 	$result.= " CO2 grams";
 	$result.= "</trash>";
 	$result.= "\n<result>".($obj->cotg_perkg*$d)."</result>";
+	return $result;
+	
+});
+
+// -- Place Data
+
+Route::get("/ajax/placeinfo", function(){
+	$obj= Carbonmarker::where("id", "=", $_GET["id"]);
+	$obj= $obj->first();
+	$result= '<root>';
+	$result.= "<id>".$obj->id."</id>";
+	$result.= "<localregion>".$obj->local_region_name."</localregion>";
+	$result.= "<authority>".$obj->authority."</authority>";
+	$result.= "<region>".$obj->region_name."</region>";
+	$imgq= $obj->local_region_name." United Kingdom image";
+	$imgq= str_replace(" ", "%20", $imgq);
+	$url = "https://ajax.googleapis.com/ajax/services/search/images?" .
+       "v=1.0&imgtype=photo&imgsz=medium|large|xlarge|xxlarge|huge&q=".$imgq;
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	$body = curl_exec($ch);
+	curl_close($ch);
+	$json = json_decode($body);
+
+	// check that is image
+	function checkimg($url){
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_HEADER, 1);
+		curl_setopt($ch, CURLOPT_NOBODY, 1);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+		$results = explode("\n", trim(curl_exec($ch)));
+		foreach($results as $line) {
+	        if (strtok($line, ':') == 'Content-Type') {
+	                $parts = explode(":", $line);
+	                $d= trim($parts[1]);
+	        }
+		}
+
+		if(explode("/", $d)[0]== "image"){
+			return "<image>".$url."</image>";
+		}else{
+			return "<image>/img/infopanaplaceholder.jpg</image>";
+		}
+	}
+
+	$result.= checkimg($json->responseData->results[0]->url);
+	$result.= "<amount>".$obj->amount."</amount>";
+	$result.= "</root>";
+
 	return $result;
 	
 });
