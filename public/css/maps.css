@@ -26,3 +26,17 @@
 body{
 	overflow-x: hidden !important;
 }
+*{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;          
+}
+input, select, button, form *{
+  -webkit-user-select: all !important;
+  -moz-user-select: all !important;
+  -ms-user-select: all !important;
+  -o-user-select: all !important;
+  user-select: all !important;          
+}

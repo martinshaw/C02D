@@ -200,6 +200,7 @@ Route::get("/ajax/placeinfo", function(){
 		}
 	}
 
+	
 	$result.= checkimg($json->responseData->results[0]->url);
 	$result.= "<amount>".$obj->amount."</amount>";
 	$result.= "</root>";
@@ -207,6 +208,60 @@ Route::get("/ajax/placeinfo", function(){
 	return $result;
 	
 });
+
+
+Route::get("/ajax/calcboxes", function(){
+
+	echo "<root>";
+
+	$vehicles= [];
+	foreach (Activitymethod::all() as $var) {
+		$vehicles[]= $var->name;
+	}
+	$vehicles= array_unique($vehicles);
+	foreach ($vehicles as $var) {
+		echo '<'.$var.' level="0">';
+
+			$sizes= [];
+			foreach (Activitymethod::where("Name", "=", $var)->get() as $varc) {
+				$sizes[]= $varc->size;
+			}
+			$sizes= array_unique($sizes);
+			foreach ($sizes as $vara) {
+
+
+				echo '<'.$vara.' level="1">';
+
+					$fuels= [];
+					foreach (Activitymethod::where("Name", "=", $var)->where("Size", "=", $vara)->get() as $varc) {
+						$fuels[]= $varc->fuel;
+					}
+					$fuels= array_unique($fuels);
+					foreach ($fuels as $vard) {
+						
+
+						echo '<'.$vard.' level="2">';
+
+							foreach (Activitymethod::where("Name", "=", $var)->where("Size", "=", $vara)->where("Fuel", "=", $vard)->get() as $varc) {
+								echo $varc->cotg_perkg;
+							}
+
+						echo '</'.$vard.'>';
+
+
+					}
+
+				echo '</'.$vara.'>';
+
+
+			}
+
+		echo '</'.$var.'>';
+	}
+	
+	echo "</root>";
+
+});	
 
 
 

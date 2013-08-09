@@ -18,6 +18,28 @@
 <body>
 
 
+	<script>
+		$(function(){
+			// EASTER EGG
+			eastereggindex= 0;
+			$(".ui-header").click(function(){
+				eastereggindex++;
+				if(eastereggindex== 4){
+					$(".ui-header").find("h1").html("Keep Clicking...");
+				}
+				if(eastereggindex== 20){
+					$(".ui-header").find("h1").html("Half way there...");
+				}
+				if(eastereggindex== 40){
+					$(".ui-header").find("h1").html("Two MORE!!!...");
+				}
+				if(eastereggindex== 42){
+					window.location= "/jalapeno";
+				}
+			});
+		});
+	</script>
+
 	<!-- Start of first page -->
 	<div data-role="page" id="intro">
 

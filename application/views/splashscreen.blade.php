@@ -61,6 +61,10 @@
 				font-size: 1px;
 			}
 
+			a{
+				color: black !important;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -94,7 +98,7 @@
 					width: "100%"
 				}, 3000, function(){
 					$(".loadbar").remove();
-					$(".loadobj").html($("<a></a>").text("Finished playing with clouds?").attr("data-prefetch","true").attr("href","/intro"));
+					$(".loadobj").html($("<a></a>").text("Finished playing with clouds?").attr("data-prefetch","true").attr("href","http://yrs13/intro"));
 				});
 			});
 

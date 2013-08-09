@@ -15,7 +15,7 @@ class DepManagement{
 		echo HTML::script("/vendors/mapbox/mapbox.js");
 		echo HTML::style("/vendors/mapbox/mapbox.css");
 		echo HTML::script("/js/maps.js");
-		echo HTML::style("/css/maps.css");
+		echo HTML::style("/css/maps.css");	
 		echo HTML::style("/vendors/mapboxclusters/MarkerCluster.css");
 		echo HTML::style("/vendors/mapboxclusters/MarkerCluster.Default.css");
 		echo HTML::script("/vendors/mapboxclusters/leaflet.markercluster.js");
@@ -29,5 +29,6 @@ class DepManagement{
 	public static function getCSS(){
 		echo HTML::style("/vendors/transport/css/transport.css");
 		echo HTML::style("/vendors/transport/css/animation.css");
+		echo HTML::style("http://fonts.googleapis.com/css?family=Droid+Sans");
 	}
 }
