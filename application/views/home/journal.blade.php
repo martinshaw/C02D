@@ -55,9 +55,11 @@
 				</ul> -->
 	
 
-				<ul style="margin-top:.1em;" data-role="listview" data-inset="true" data-theme="c">
+
+
+				<ul style="margin-top:.1em;" data-role="listview" data-inset="true" data-theme="c" class="wqein">
 				    <li data-role="list-divider" data-theme="a">8:00&nbsp;&nbsp;-&nbsp;&nbsp;Monday<!--  1<sup>st</sup> Jan 2013 --> <span class="ui-li-count">2</span></li>
-				    <li><a href="index.html">
+				    <li><a href="#detail" data-transition="slide">
 				        <h2>Train</h2>
 				        <p><strong>The morning train to work</strong></p>
 				        <p><span>200 grams of CO<sub><sup>&nbsp;2</sup></sub></span></p>
@@ -145,6 +147,7 @@
 				font-size: 10px;
 				height:50%;
 				overflow-x: visible !important;
+				cursor:crosshair !important;
 			}
 			.axis path, .axis line {
 			  fill: none;
@@ -171,7 +174,7 @@
 			<script>
 
 			var margin = {top: 20, right: 20, bottom: 110, left: 40},
-			    width = (window.innerWidth*2) - margin.left - margin.right,
+			    width = (window.innerWidth*3) - margin.left - margin.right,
 			    height = (window.innerHeight) - margin.top - margin.bottom;
 
 			var formatPercent = d3.format(".0%");
@@ -291,14 +294,76 @@
 			
 
 				<style>
-					.topareas{
+					.topareas, .middleareas, .bottomareas{
 						padding-left:20px;
 						padding-right:20px;
+					}
+					.icon{
+						font-family: 'GlyphyxOneNF';
+						font-size:60px;
+					}
+					hr{
+						border-style:none;
+						border-top:1px solid #aaa;
+					}
+					.float{
+						color:white;
+						position:relative;
+					}
+					.co{
+						top:-125px;
+						left:-4px;
+					}
+					.counit{
+						top:-120px;
+						left:-4px;
+						font-size: 9px;
+					}
+					blockquote{
+						margin-top:0;
+						padding-top: 0;
 					}
 				</style>
 				
 				<div class="topareas">
+
+					<center>
+
+						<br/>
+
+						<span class="icon">$</span>
+
+					</center>
+
 					<h2>The morning train to work</h2>
+
+					<hr/>
+				</div>
+				
+				<div class="middleareas">
+					<center>
+
+						<br/>
+
+						<img src="/img/feet/1/amber.png" height="170px"/>
+						<div class="float co">200</div>
+						<div class="float counit">grams of CO<sub>2</sub></div>
+
+					</center>
+					<br/>
+					<hr/>
+
+				</div>
+
+				
+				<div class="bottomareas">
+
+					<h3>Alternative Route:</h3>
+					<blockquote>
+						We recommend travelling by car on this route.<br/><br/>
+						This would reduce your carbon emissions by 18 grams
+
+					</blockquote>	<br/>
 				</div>
 
 
@@ -329,68 +394,6 @@
 
 
 
-
-
-
-	
-	<!-- Start of second page -->
-	<div data-role="page" id="details">
-
-		<div data-role="header" data-position="fixed" data-fullscreen="false">
-			<h1>&nbsp;</h1><a href="#list" data-transition="slide" data-direction="reverse" class="ui-btn-left" data-corners="false" data-shadow="false" data-theme="a" data-role="button">&larr;&nbsp;Return</a>
-			
-		</div><!-- /header -->
-
-		<div data-role="content" class="nopadding">
-			
-				<ul style="margin-top:.1em;" data-role="listview" data-inset="true" data-theme="c">
-				    <li data-role="list-divider" data-theme="a">8:00&nbsp;&nbsp;-&nbsp;&nbsp;Monday<!--  1<sup>st</sup> Jan 2013 --> <span class="ui-li-count">2</span></li>
-				    <li><a href="index.html">
-				        <h2>Train</h2>
-				        <p><strong>The morning train to work</strong></p>
-				        <p><span>200 grams of CO<sub><sup>&nbsp;2</sup></sub></span></p>
-				        <p class="ui-li-aside"><strong>8:12</strong>PM</p>
-				    </a></li>
-				    <li><a href="index.html">
-				        <h2>Bus</h2>
-				        <p><strong>From train station to office</strong></p>
-				        <p>43 grams of CO</p>
-				        <p class="ui-li-aside"><strong>8:50</strong>PM</p>
-				    </a></li>
-				    <li data-role="list-divider" data-theme="a">13:00&nbsp;&nbsp;-&nbsp;&nbsp;Monday<!--  1<sup>st</sup> Jan 2013 --> <span class="ui-li-count">2</span></li>
-				    <li><a href="index.html">
-				        <h2>Bus</h2>
-				        <p><strong>From shop</strong></p>
-				        <p>13 grams of CO</p>
-				        <p class="ui-li-aside"><strong>13:58</strong>PM</p>
-				    </a></li>
-				    <li><a href="index.html">
-				        <h2>Taxi</h2>
-				        <p><strong>To shop</strong></p>
-				        <p>24 grams of CO</p>
-				        <p class="ui-li-aside"><strong>13:33</strong>PM</p>
-				    </a></li>
-				    <li data-role="list-divider" data-theme="a">14:00&nbsp;&nbsp;-&nbsp;&nbsp;Monday<!--  1<sup>st</sup> Jan 2013 --> <span class="ui-li-count">1</span></li>
-				    <li><a href="index.html">
-				        <h2>Plane</h2>
-				        <p><strong>HOLIDAY!!</strong></p>
-				        <p>1800 grams of CO</p>
-				        <p class="ui-li-aside"><strong>14:10</strong>PM</p>
-				    </a></li>
-				</ul>
-
-
-
-		</div><!-- /content -->
-		
-		<?php
-
-			include "/home/martin/webdev/yrs13/application/includes/footer.blade.php";
-			include "/home/martin/webdev/yrs13/application/includes/sidebar_settings.blade.php";
-
-		?>
-
-	</div><!-- /page -->
 
 
 

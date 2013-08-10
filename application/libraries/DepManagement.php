@@ -29,6 +29,7 @@ class DepManagement{
 	public static function getCSS(){
 		echo HTML::style("/vendors/transport/css/transport.css");
 		echo HTML::style("/vendors/transport/css/animation.css");
+		echo HTML::style("/vendors/iconlib/iconlib.css");
 		echo HTML::style("http://fonts.googleapis.com/css?family=Droid+Sans");
 	}
 }
