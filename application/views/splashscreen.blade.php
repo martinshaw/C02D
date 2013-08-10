@@ -98,7 +98,7 @@
 					width: "100%"
 				}, 3000, function(){
 					$(".loadbar").remove();
-					$(".loadobj").html($("<a></a>").text("Finished playing with clouds?").attr("data-prefetch","true").attr("href","http://yrs13/intro"));
+					$(".loadobj").html($("<a></a>").attr("data-transition", "turn").text("Finished playing with clouds?").attr("href","http://yrs13/intro"));
 				});
 			});
 

@@ -47,7 +47,7 @@
 			<h1>&nbsp;</h1>
 		</div><!-- /header -->
 
-		<div data-role="content">
+		<div data-role="content" style="float:left;font-align:left;" align="left">
 			{{C02D::$introtext}}
 		</div><!-- /content -->
 		
