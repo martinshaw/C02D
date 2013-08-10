@@ -18,6 +18,15 @@
 
 
 
+	<style>
+	
+		.ui-li-divider{
+			z-index:100 !important;
+		}
+		
+	</style>
+
+
 
 	
 	<!-- Start of second page -->
@@ -90,6 +99,20 @@
 				        <p><strong>HOLIDAY!!</strong></p>
 				        <p>1800 grams of CO<sub><sup>&nbsp;2</sup></sub></p>
 				        <p class="ui-li-aside"><strong>14:10</strong>PM</p>
+				    </a></li>
+				    
+				    <li data-role="list-divider" data-theme="c"><!--14:00&nbsp;&nbsp;-&nbsp;&nbsp;Monday--><!--  1<sup>st</sup> Jan 2013 -->&nbsp;<!--<span class="ui-li-count">1</span>--></li>
+				    <li><a href="#">
+				        <h2>Add Activity</h2>
+				        <!--<p><strong>HOLIDAY!!</strong></p>
+				        <p>1800 grams of CO<sub><sup>&nbsp;2</sup></sub></p>
+				        <p class="ui-li-aside"><strong>14:10</strong>PM</p>-->
+				    </a></li>
+				    <li><a href="#">
+				        <h2>Create today's report</h2>
+				        <!--<p><strong>HOLIDAY!!</strong></p>
+				        <p>1800 grams of CO<sub><sup>&nbsp;2</sup></sub></p>
+				        <p class="ui-li-aside"><strong>14:10</strong>PM</p>-->
 				    </a></li>
 				</ul>
 
@@ -360,7 +383,7 @@
 
 					<h3>Alternative Route:</h3>
 					<blockquote>
-						We recommend travelling by car on this route.<br/><br/>
+						We recommend travelling by a small hybrid car on this route.<br/><br/>
 						This would reduce your carbon emissions by 18 grams
 
 					</blockquote>	<br/>

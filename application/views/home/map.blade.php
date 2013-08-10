@@ -106,7 +106,7 @@
 							}
 
 
-							$timerindex= $timerindex+40;
+							$timerindex= $timerindex+20;
 							$function= "function(err, data){
 								if(data){
 						        markers.addLayer(L.marker(data.latlng, {
