@@ -423,6 +423,230 @@
 
 
 
+	
+	<!-- Start of second page -->
+	<div data-role="page" id="calc">
+
+		<div data-role="header" data-position="fixed" data-fullscreen="false">
+			<h1>&nbsp;</h1><a href="#list" data-transition="slide" data-direction="reverse" class="ui-btn-left" data-corners="false" data-shadow="false" data-theme="a" data-role="button">&larr;&nbsp;Back</a>
+			
+		</div><!-- /header -->
+
+		<div data-role="content" class="nopadding">
+			
+
+				<style>
+					.topareas, .middleareas, .bottomareas{
+						padding-left:20px;
+						padding-right:20px;
+					}
+					.icon{
+						font-family: 'GlyphyxOneNF';
+						font-size:60px;
+					}
+					hr{
+						border-style:none;
+						border-top:1px solid #aaa;
+					}
+					.float{
+						color:white;
+						position:relative;
+					}
+					.co{
+						top:-125px;
+						left:-4px;
+					}
+					.counit{
+						top:-120px;
+						left:-4px;
+						font-size: 9px;
+					}
+					blockquote{
+						margin-top:0;
+						padding-top: 0;
+					}
+				</style>
+				
+				<div class="topareas">
+
+					<center>
+
+					<h4 id="capt">Small Petrol Car</h4>
+<br/>
+					<a href="#popupNested" class="wienfwef" data-rel="popup" data-role="button" data-inline="true" data-icon="bars" data-theme="b" data-transition="pop">Choose a Vehicle...</a>
+					<div data-role="popup" id="popupNested" data-theme="none">
+					    <div data-role="collapsible-set" data-theme="b" data-content-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" style="margin:0; width:250px;">
+					        <div data-role="collapsible" data-inset="false">
+					            <h2>Car</h2>
+					            <ul data-role="listview">
+
+					            	<script>
+					            		$(function(){
+					            			$(".middleareas").hide();
+					            			$("#capt").hide();
+					            			$(".showremainder").click(function(){
+					            				$(".middleareas").show();
+					            				$("#popupNested").hide();
+					            				$("#capt").show();
+					            				$(".wienfwef").hide();
+
+					            			});	
+
+
+					            		});
+					            	</script>
+
+					                
+						            <div data-role="collapsible" data-inset="false" data-theme="c">
+							            <h2 data-theme="c">Small</h2>
+							            <ul data-role="listview">
+								            <ul data-role="listview">
+								                <li><a href="#" data-rel="dialog" class="showremainder">Petrol</a></li>
+								                <li><a href="#" data-rel="dialog">Diesel</a></li>
+								                <li><a href="#" data-rel="dialog">Hybrid</a></li>
+								                <li><a href="#" data-rel="dialog">Electric</a></li>
+								                <li><a href="#" data-rel="dialog">Unknown</a></li>
+								            </ul>
+							            </ul>
+							        </div><!-- /collapsible -->
+					                
+						            <div data-role="collapsible" data-inset="false" data-theme="c">
+							            <h2 data-theme="c">Normal</h2>
+							            <ul data-role="listview">
+								            <ul data-role="listview">
+								                <li><a href="#" data-rel="dialog">Small</a></li>
+								                <li><a href="#" data-rel="dialog">Normal</a></li>
+								                <li><a href="#" data-rel="dialog">Large</a></li>
+								            </ul>
+							            </ul>
+							        </div><!-- /collapsible -->
+					                
+						            <div data-role="collapsible" data-inset="false" data-theme="c">
+							            <h2 data-theme="c">Large</h2>
+							            <ul data-role="listview">
+								            <ul data-role="listview">
+								                <li><a href="#" data-rel="dialog">Small</a></li>
+								                <li><a href="#" data-rel="dialog">Normal</a></li>
+								                <li><a href="#" data-rel="dialog">Large</a></li>
+								            </ul>
+							            </ul>
+							        </div><!-- /collapsible -->
+
+					            </ul>
+					        </div><!-- /collapsible -->
+					        <div data-role="collapsible" data-inset="false">
+					            <h2>Bus</h2>
+					            <ul data-role="listview">
+					                <li><a href="#" data-rel="dialog">Cat</a></li>
+					                <li><a href="#" data-rel="dialog">Dog</a></li>
+					                <li><a href="#" data-rel="dialog">Iguana</a></li>
+					                <li><a href="#" data-rel="dialog">Mouse</a></li>
+					            </ul>
+					        </div><!-- /collapsible -->
+					        <div data-role="collapsible" data-inset="false">
+					            <h2>Taxi</h2>
+					            <ul data-role="listview">
+					                <li><a href="#" data-rel="dialog">Fish</a></li>
+					                <li><a href="#" data-rel="dialog">Octopus</a></li>
+					                <li><a href="#" data-rel="dialog">Shark</a></li>
+					                <li><a href="#" data-rel="dialog">Starfish</a></li>
+					            </ul>
+					        </div><!-- /collapsible -->
+					        <div data-role="collapsible" data-inset="false">
+					            <h2>Train</h2>
+					            <ul data-role="listview">
+					                <li><a href="#" data-rel="dialog">Lion</a></li>
+					                <li><a href="#" data-rel="dialog">Monkey</a></li>
+					                <li><a href="#" data-rel="dialog">Tiger</a></li>
+					                <li><a href="#" data-rel="dialog">Zebra</a></li>
+					            </ul>
+					        </div><!-- /collapsible -->
+					        <div data-role="collapsible" data-inset="false">
+					            <h2>Tram</h2>
+					            <ul data-role="listview">
+					                <li><a href="#" data-rel="dialog">Lion</a></li>
+					                <li><a href="#" data-rel="dialog">Monkey</a></li>
+					                <li><a href="#" data-rel="dialog">Tiger</a></li>
+					                <li><a href="#" data-rel="dialog">Zebra</a></li>
+					            </ul>
+					        </div><!-- /collapsible -->
+					    </div><!-- /collapsible set -->
+					</div><!-- /popup -->
+
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<hr/>
+				</div>
+				
+				<div class="middleareas">
+
+						<br/>
+
+<center>
+						<input type="text" class="km" placeholder="Enter Kilometres Travelled"/>
+</center>
+
+
+
+
+
+					<br/>
+					<hr/>
+
+				</div> 
+
+				
+
+
+		</div><!-- /content -->
+		
+		<?php
+
+			include "/home/martin/webdev/yrs13/application/includes/footer.blade.php";
+			include "/home/martin/webdev/yrs13/application/includes/sidebar_settings.blade.php";
+
+		?>
+
+	</div><!-- /page -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

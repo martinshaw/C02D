@@ -11,7 +11,7 @@ class DepManagement{
 		echo HTML::style("/vendors/jquerymobile/jquery.mobile-1.3.2.min.css");
 		echo HTML::style("/themes/C02D2013.min.css");
 	}
-	public static function getMapApi(){
+	public static function getMapApi(){	
 		echo HTML::script("/vendors/mapbox/mapbox.js");
 		echo HTML::style("/vendors/mapbox/mapbox.css");
 		echo HTML::script("/js/maps.js");

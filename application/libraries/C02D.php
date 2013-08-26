@@ -7,5 +7,7 @@ class C02D{
 
 	public static $introtext= "<b>Welcome to Carbon Diary</b>,<br/><br/>The new innovative web app for phones that checks your daily Carbon footprint.";
 
-
 }
+
+// opera
+// virtualbox
